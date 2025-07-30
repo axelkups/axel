@@ -1,38 +1,107 @@
-.App {
+/* Base Reset and Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Section Styling */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Home Section */
+#home {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
   text-align: center;
+  padding: 100px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#home h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#home p {
+  font-size: 1.2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* About Section */
+#about {
+  background-color: #fff;
+  color: #333;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Project Section */
+#project {
+  background-color: #e8f0fe;
+}
+
+#project h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project-item {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #fefefe;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #2575fc;
   color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-form button:hover {
+  background-color: #1a5cd8;
 }
