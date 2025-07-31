@@ -16,8 +16,8 @@ const Projects = () => {
       </header>
 
       <section className="project-gallery">
-        <img src="/images/project1.jpg" alt="Project 1" />
-        <img src="/images/project2.jpg" alt="Project 2" />
+        <img src="/healthypaws.png" alt="Project 1" />
+        <img src="/vnshrms.png" alt="Project 2" />
       </section>
     </div>
   );

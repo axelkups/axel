@@ -1,17 +1,17 @@
 import React from 'react';
-import '../App.css'; // Make sure your CSS is linked
+import '../App.css'; 
 
 function Home() {
   return (
-    <div className="home">
-      <section className="hero">
-        <div className="overlay" />
-        <div className="hero-content">
-          <h1>Welcome to My Home</h1>
-          <p>I design and build modern web experiences.</p>
-          <button className="cta-button">Click</button>
-        </div>
-      </section>
+    <div className="home-page">
+      <main className="main-content">
+        <h1 className="page-title">Home</h1>
+        <hr className="divider" />
+        <p className="subheading">Welcome to my world of modern web experiences.</p>
+        <p className="description">
+          I design and build thoughtful digital experiences. My work focuses on clean code, responsive design, and elegant simplicity — built to reflect both purpose and beauty.
+        </p>
+      </main>
     </div>
   );
 }
